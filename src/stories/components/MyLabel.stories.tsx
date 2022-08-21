@@ -1,13 +1,13 @@
-import MyLabel, { MyLabelProps } from "../../components/MyLabel";
+import { MyLabel, MyLabelProps } from "../../components/MyLabel";
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
     title: 'UI/MyLabel',
     component: MyLabel,
     argTypes: {
-        size: { control: 'select'},
+        size: { control: 'select' },
         color: { control: 'select' },
-        fontColor: { control: 'color'}
+        fontColor: { control: 'color' }
     }
 } as ComponentMeta<typeof MyLabel>
 
